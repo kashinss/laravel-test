@@ -1,0 +1,18 @@
+###
+GET http://laravel-crud.local/api/car-usage/list
+
+###
+PUT http://laravel-crud.local/api/car-usage/set
+Content-Type: application/json
+
+{
+    "userId": 6
+}
+
+###
+PUT http://laravel-crud.local/api/car-usage/remove
+Content-Type: application/json
+
+{
+    "userId": 2
+}
